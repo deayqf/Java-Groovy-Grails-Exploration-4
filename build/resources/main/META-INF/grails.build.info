@@ -1,0 +1,6 @@
+#Fri, 08 Dec 2017 17:31:09 -0600
+
+info.app.version=0.1
+info.app.name=javagrails
+grails.env=development
+info.app.grailsVersion=3.3.2
