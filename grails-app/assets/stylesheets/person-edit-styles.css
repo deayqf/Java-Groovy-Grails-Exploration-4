@@ -1,0 +1,18 @@
+.buttons {
+    background-color: #424649;
+    border-radius: 4px;
+    box-shadow: 0px 0px 0px white;
+}
+.buttons input, .buttons a {
+    color: white;
+}
+.footer {
+    display: none;
+}
+fieldset, .property-list {
+    margin-left: 0;
+    padding-left: 0;
+}
+.fieldcontain label, .fieldcontain .property-label {
+    width: 100px;
+}

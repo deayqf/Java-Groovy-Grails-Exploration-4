@@ -4,19 +4,7 @@
         <meta name="layout" content="main" />
         <g:set var="entityName" value="${message(code: 'person.label', default: 'Person')}" />
         <title><g:message code="default.create.label" args="[entityName]" /></title>
-        <style>
-            .buttons {
-                background-color: #424649;
-                border-radius: 4px;
-                box-shadow: 0px 0px 0px white;
-            }
-            .buttons input, .buttons a {
-                color: white;
-            }
-            .footer {
-                display: none;
-            }
-        </style>
+        <asset:stylesheet src="person-create-styles.css"/>
     </head>
     <body>
         <a href="#create-person" class="skip" tabindex="-1"><g:message code="default.link.skip.label" default="Skip to content&hellip;"/></a>

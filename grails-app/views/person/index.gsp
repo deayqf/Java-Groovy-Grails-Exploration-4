@@ -4,17 +4,7 @@
         <meta name="layout" content="main" />
         <g:set var="entityName" value="${message(code: 'person.label', default: 'Person')}" />
         <title><g:message code="default.list.label" args="[entityName]" /></title>
-        <style>
-            .footer {
-                height: 40px;
-            }
-            td a {
-                color: black;
-            }
-            td a:hover {
-                color: white;
-            }
-        </style>
+        <asset:stylesheet src="person-index-styles.css"/>
     </head>
     <body>
         <a href="#list-person" class="skip" tabindex="-1"><g:message code="default.link.skip.label" default="Skip to content&hellip;"/></a>

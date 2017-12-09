@@ -1,0 +1,9 @@
+.footer {
+    height: 40px;
+}
+td a {
+    color: black;
+}
+td a:hover {
+    color: white;
+}
